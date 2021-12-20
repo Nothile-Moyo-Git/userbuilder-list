@@ -76,6 +76,8 @@ function App() {
   
   // Give us output on every DOM render in order to debug our code
   useEffect(() =>{
+    document.title = "Nothile's Userbuilder Form";
+
       document.addEventListener('mousedown', clickHandler);
       return () => {
           // Unbind the event listener on clean up
