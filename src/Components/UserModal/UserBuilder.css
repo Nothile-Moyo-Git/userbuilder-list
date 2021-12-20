@@ -1,0 +1,54 @@
+.userbuilder-form{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    background-color: var(--secondary-one);
+    border-radius: var(--card-corners);
+    padding: var(--card-padding);
+    z-index: 1;
+
+}
+
+.opaque-overlay .userbuilder-form{
+    transform: translateZ(-10px);
+}
+
+.userbuilder-form label{
+    width: 100%;
+    color: var(--secondary-two);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem auto 0.5rem auto;
+    display: block;
+    margin-left: 1.25%;
+}
+
+.userbuilder-form input{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    padding: 0.75rem 0.5rem;
+    transition: all 0.10s linear;
+    border: 2px solid var(--secondary-two);
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.userbuilder-form form input:hover, .userbuilder-form form input:active{
+    border-color: var(--primary-one);
+    
+}
+
+.userbuilder-form form input:focus{
+    border-color: var(--primary-one);
+    background-color: var(--primary-one);
+    color: var(--secondary-one);
+}
+
+@media screen and (max-width: 768px){
+    .userbuilder-form{
+        width: 70%;
+    }
+}

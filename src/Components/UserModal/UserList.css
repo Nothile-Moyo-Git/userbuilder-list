@@ -1,0 +1,34 @@
+.user-list-section{
+    width: 50%;
+    margin: auto;
+    margin-top: 10rem;
+    position: relative;
+    background-color: var(--secondary-one);
+    padding: var(--card-padding);
+    border-radius: var(--card-corners);
+}
+
+.user-list-section ul{
+    list-style-type: none;
+    padding: 0rem;
+}
+
+.user-list-section ul li{
+    border: 2px solid grey;
+    border-radius: 0.3rem;
+    margin: 1.5rem 0rem;
+    padding: 0.5rem;
+    transition: all 0.10s linear;
+    cursor: pointer;
+}
+
+.user-list-section ul li:hover, .user-list-section ul li:focus{
+    border-color: var(--primary-one);
+    color: var(--primary-one);
+}
+
+@media screen and (max-width: 768px){
+    .user-list-section{
+        width: 70%;
+    }
+}

@@ -1,0 +1,29 @@
+.errorModal{
+    width: 50%;
+    margin: auto;
+    background-color: var(--secondary-one);
+    border-radius: var(--card-corners);
+    padding: var(--error-modal-padding);
+    position: absolute;
+    left: calc(25% - 4.5rem);
+    top: 25rem;
+    z-index: 4;
+}
+
+.errorModal h1{
+    color: var(--secondary-one);
+    background-color: var(--primary-one);
+    position: relative;
+    right: 4rem;
+    bottom: 1.4rem;
+    width: calc(100% + 7rem);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.errorModal button{
+    display: flex;
+    margin-left: auto;
+}
+

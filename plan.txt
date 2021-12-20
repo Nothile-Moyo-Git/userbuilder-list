@@ -1,0 +1,34 @@
+React - user management project
+This project will take an age and a username
+It displays this in a grid below the input box
+If the input is wrong, we display a card which informs the user of how to enter a correct input
+text example is: 
+Please enter a valid name
+Please enter a valid name and age
+Please enter an age > 0
+
+So, current plan
+1: Create a new react component from Scratch and load this - done
+2: Create a components folder - done
+3: Create UserBuilder/UserList components in this folder
+3.1: Create the structure and definitions - done
+3.2: Style them as well
+3.3: Add any compensation styling ( backgrounds etc.. )
+4: Create an error folder in components and build this component there
+5: Style this component to be below the form for now before dealing with output
+6: Manage our inputs and use CourseInput as an example of how we can store data
+6.1: I think we do this by using a spread operator on a state and adding the entries to it
+6.2: So we need a state in app.js which we can update using two way binding - test this thoroughly
+7: Execute added functionality for showing/hiding the box and also outputting an array of user information 
+
+This means we need
+1: UserBuilder component / css
+2: UserList component / css ( These two can share a folder )
+3: ErrorModal component / css
+4: UserBuilder and UserList to be in App.js for two way binding
+5: Error modal to be in User Builder so we get the right input
+
+UserBuilder component has the form inside it and the error modal which displays based on state
+UserList component which displays our form outputs from App.js
+Errormodal which goes inside UserBuilder, we show or hide this based on a state ( animate this )
+Use cool gradients for the button and the logo title, improve on his styling significantly
