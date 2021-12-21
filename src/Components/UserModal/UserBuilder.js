@@ -97,7 +97,7 @@ const UserBuilder = (props) => {
                 <label className="username-label"> Username </label>
                 <input type="text" id="username-text" disabled={ props.errorMode === true && 'disabled' }/>
                 <label className="age-label"> Age (Years) </label>
-                <input type="number" id="age-number" disabled={ props.errorMode === true && 'disabled' }/>
+                <input type="number" max="100" id="age-number" disabled={ props.errorMode === true && 'disabled' }/>
                 <button type="submit" disabled={ props.errorMode === true && 'disabled' }> Add User </button>  
             </form>
         </div>
