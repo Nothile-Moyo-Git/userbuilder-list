@@ -44,5 +44,21 @@
     background-color: var(--primary-two);
   }
 
+  @media screen and (max-width: 768px){
+
+    button{ 
+      width: 100%; 
+    }
+
+    .userbuilder-components{
+      height: 130vh;
+    }
+
+    .userbuilder-components.errorMode{
+      height: 110vh;
+    }
+
+  }
+
 
 

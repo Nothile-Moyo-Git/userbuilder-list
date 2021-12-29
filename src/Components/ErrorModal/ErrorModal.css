@@ -27,3 +27,16 @@
     margin-left: auto;
 }
 
+@media screen and (max-width: 768px){
+    .errorModal{
+        width: 59.5%;
+        left: calc(29% - 5rem);
+        padding: var(--error-modal-thin-padding);
+    }
+
+    .errorModal h1{
+        right: 3rem;
+        width: calc(100% + 4rem);
+    }
+}
+

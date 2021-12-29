@@ -13,7 +13,9 @@
   --window-width: 100vw;
   --window-height: 100vh;
   --card-padding: 3rem 5rem 3rem 4rem;
+  --thin-card-padding: 2rem 3rem 2rem 3rem;
   --error-modal-padding: 0rem 5rem 1rem 4rem;
+  --error-modal-thin-padding: 0rem 3rem 1rem 3rem;
   --card-corners: 1rem;
 }
 

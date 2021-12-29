@@ -49,6 +49,11 @@
 
 @media screen and (max-width: 768px){
     .userbuilder-form{
-        width: 70%;
+        width: 60%;
+        padding: var(--thin-card-padding);
+    }
+
+    .userbuilder-form input{
+        width: 90%;
     }
 }
