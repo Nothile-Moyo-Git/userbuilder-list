@@ -10,10 +10,6 @@
 
 }
 
-.opaque-overlay .userbuilder-form{
-    transform: translateZ(-10px);
-}
-
 .userbuilder-form label{
     width: 100%;
     color: var(--secondary-two);
@@ -43,6 +39,21 @@
 
 .userbuilder-form form input:focus{
     border-color: var(--primary-one);
+    background-color: var(--primary-one);
+    color: var(--secondary-one);
+}
+
+.userbuilder-form button.neon-button{
+    border: 0.125rem solid var(--primary-one);
+    background-color: transparent;
+    color: var(--primary-one);
+    box-shadow: inset 0px 0px 2px 1.5px var(--primary-one), 0px 0px 2px 1.5px var(--primary-one);
+    transition: all 0.2s linear;
+    font-family: var(--balsamiq-sans);
+    text-shadow: 0rem 0rem 0.2rem rgba(255, 255, 255, 0.5), 0rem 0rem 0.2rem currentColor;
+}
+
+.userbuilder-form button.neon-button:hover{
     background-color: var(--primary-one);
     color: var(--secondary-one);
 }
