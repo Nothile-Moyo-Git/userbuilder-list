@@ -37,6 +37,7 @@
     font-weight: 500;
     color: var(--secondary-one);
     transition: all 0.20s linear;
+    font-family: var(--balsamiq-sans);
     cursor: pointer;
   }
 
@@ -47,7 +48,7 @@
   @media screen and (max-width: 768px){
 
     button{ 
-      width: 100%; 
+      width: 96.5%;
     }
 
     .userbuilder-components{
@@ -56,6 +57,8 @@
 
     .userbuilder-components.errorMode{
       height: 110vh;
+      position: relative;
+      bottom: 2rem;
     }
 
   }

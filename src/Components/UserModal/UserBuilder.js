@@ -94,11 +94,12 @@ const UserBuilder = (props) => {
     return(
         <div className="userbuilder-form">
             <form onSubmit={ submitHandler }>
-                <label className="username-label"> Username </label>
+                <label className="username-label" htmlFor="username-text"> Username </label>
                 <input type="text" id="username-text" disabled={ props.errorMode === true && 'disabled' }/>
-                <label className="age-label"> Age (Years) </label>
+                <label className="age-label" htmlFor="age-number"> Age (Years) </label>
                 <input type="number" max="100" id="age-number" disabled={ props.errorMode === true && 'disabled' }/>
-                <button type="submit" disabled={ props.errorMode === true && 'disabled' }> Add User </button>  
+                <button type="submit" disabled={ props.errorMode === true && 'disabled' }> Add User </button> 
+                { /*<button className="neon-button"> Neon Button </button>*/ }
             </form>
         </div>
     );

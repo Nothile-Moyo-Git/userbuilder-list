@@ -29,9 +29,10 @@
 
 @media screen and (max-width: 768px){
     .errorModal{
-        width: 59.5%;
-        left: calc(29% - 5rem);
+        width: 60%;
+        left: 0px;
         padding: var(--error-modal-thin-padding);
+        position: relative;
     }
 
     .errorModal h1{

@@ -1,5 +1,6 @@
 /* Key imports should go here */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 /* Setting global css variables, we also set the base font-size for all our rems here */
 :root{ 
@@ -17,11 +18,12 @@
   --error-modal-padding: 0rem 5rem 1rem 4rem;
   --error-modal-thin-padding: 0rem 3rem 1rem 3rem;
   --card-corners: 1rem;
+  --balsamiq-sans: 'Balsamiq Sans', cursive;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
