@@ -49,7 +49,7 @@
     color: var(--primary-one);
     box-shadow: inset 0px 0px 2px 1.5px var(--primary-one), 0px 0px 2px 1.5px var(--primary-one);
     transition: all 0.2s linear;
-    font-family: var(--balsamiq-sans);
+    font-family: var(--arial-font);
     text-shadow: 0rem 0rem 0.2rem rgba(255, 255, 255, 0.5), 0rem 0rem 0.2rem currentColor;
 }
 

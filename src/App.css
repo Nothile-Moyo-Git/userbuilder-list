@@ -37,7 +37,7 @@
     font-weight: 500;
     color: var(--secondary-one);
     transition: all 0.20s linear;
-    font-family: var(--balsamiq-sans);
+    font-family: var(--arial-font);
     cursor: pointer;
   }
 
