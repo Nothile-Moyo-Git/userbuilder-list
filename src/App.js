@@ -15,6 +15,9 @@ function App() {
     [{ id: 'user1', name: 'Nothile Moyo', age:'25 years old' },{ id: 'user2', name: 'Ross Kemp', age:'28 years old' }]
   );
 
+  // We're creating a manual overlay height here as we need our overlay to dynamically update when we add more users
+  const [overlaySize, updateOverlaySize] = useState();
+
   const [userCount, userCountHandler] = useState( storedUsers.length + 1 );
 
   // Add a new user to our list 
@@ -86,8 +89,18 @@ function App() {
 
   });
 
+  // We're testing changes to the number of users in our list
+  useEffect(() => {
+
+    console.log(`We're testing any changes to our users here`);
+    console.log( storedUsers );
+
+    updateOverlaySize(storedUsers.length * 60);
+
+  },[storedUsers]);
+
   return (
-    <div className={`userbuilder-components ${errorMode === true ? 'errorMode' : ''}`}>
+    <div className={`userbuilder-components ${errorMode === true ? 'errorMode' : ''}`} style={{ height:`${849 + overlaySize}px`}}>
 
     { /* If there's an error, place an overlay over our form and list, inside of this we have the form and list so the overlay affects them */ }
     <div className={ errorMode === true ? 'opaque-overlay' : ''}>
