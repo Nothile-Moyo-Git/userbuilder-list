@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/userbuilder-list/static/css/main.90c2527d.chunk.css",
-    "main.js": "/userbuilder-list/static/js/main.a0b8a031.chunk.js",
-    "main.js.map": "/userbuilder-list/static/js/main.a0b8a031.chunk.js.map",
+    "main.css": "/userbuilder-list/static/css/main.06db7b09.chunk.css",
+    "main.js": "/userbuilder-list/static/js/main.c9307d34.chunk.js",
+    "main.js.map": "/userbuilder-list/static/js/main.c9307d34.chunk.js.map",
     "runtime-main.js": "/userbuilder-list/static/js/runtime-main.96026edb.js",
     "runtime-main.js.map": "/userbuilder-list/static/js/runtime-main.96026edb.js.map",
     "static/js/2.a21005bb.chunk.js": "/userbuilder-list/static/js/2.a21005bb.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.c7853796.chunk.js": "/userbuilder-list/static/js/3.c7853796.chunk.js",
     "static/js/3.c7853796.chunk.js.map": "/userbuilder-list/static/js/3.c7853796.chunk.js.map",
     "index.html": "/userbuilder-list/index.html",
-    "static/css/main.90c2527d.chunk.css.map": "/userbuilder-list/static/css/main.90c2527d.chunk.css.map",
+    "static/css/main.06db7b09.chunk.css.map": "/userbuilder-list/static/css/main.06db7b09.chunk.css.map",
     "static/js/2.a21005bb.chunk.js.LICENSE.txt": "/userbuilder-list/static/js/2.a21005bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.96026edb.js",
     "static/js/2.a21005bb.chunk.js",
-    "static/css/main.90c2527d.chunk.css",
-    "static/js/main.a0b8a031.chunk.js"
+    "static/css/main.06db7b09.chunk.css",
+    "static/js/main.c9307d34.chunk.js"
   ]
 }
