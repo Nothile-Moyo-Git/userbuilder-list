@@ -95,12 +95,12 @@ function App() {
     console.log(`We're testing any changes to our users here`);
     console.log( storedUsers );
 
-    updateOverlaySize(storedUsers.length * 60);
+    updateOverlaySize(storedUsers.length * 3.75);
 
   },[storedUsers]);
 
   return (
-    <div className={`userbuilder-components ${errorMode === true ? 'errorMode' : ''}`} style={{ height:`${849 + overlaySize}px`}}>
+    <div className={`userbuilder-components ${errorMode === true ? 'errorMode' : ''}`} style={{ height:`${53.05 + overlaySize}rem`}}>
 
     { /* If there's an error, place an overlay over our form and list, inside of this we have the form and list so the overlay affects them */ }
     <div className={ errorMode === true ? 'opaque-overlay' : ''}>
