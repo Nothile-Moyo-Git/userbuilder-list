@@ -4,7 +4,7 @@ This project was completely written by me, and is a test of my understanding of 
 
 This included states, useEffect, React lifecyclces, a clear understanding of the DOM and DOM manipulated, as well as ES6 JavaScript ( maps and filters ) on top of improving my Object Oriented programming and architecture skills
 
-NOTE: PLEASE VISIT MASTER BRANCH IN ORDER TO SEE THE CODE
+NOTE: PLEASE VISIT THE MASTER BRANCH IN ORDER TO SEE THE CODE
 
 Here is a link for the project: https://nothile-moyo-git.github.io/userbuilder-list/
 
