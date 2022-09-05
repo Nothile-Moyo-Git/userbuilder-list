@@ -1,4 +1,4 @@
-# This is my Userbuilder list. It's similar to a to-do list but it contains users.
+# This is my Userbuilder list.
 
 This app is currently deployed on Github pages
 
